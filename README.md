@@ -23,19 +23,21 @@ This project demonstrates matrix multiplication using both process-based and thr
 
 ## Usage
 
-The project consists of a single C file that encompasses the following:
+The C file is structured to showcase matrix multiplication using both process-based and threaded solutions. Here's an overview of the code organization:
 
-- **Process Management (Part 1):**
-  - The `childProcess` function contains code for the child process.
+- **Child Process Code:**
+  - The `proc*` functions contain the code executed by child processes.
 
-- **Threaded Processing (Part 2):**
-  - The `threadFunc` function contains code executed by each thread.
+- **Thread Code:**
+  - The `thred*` functions encapsulates the code executed by each thread.
 
-- **Process vs Thread Implementations (Part 3):**
-  - Implementation of process-based and threaded solutions after comments in the `main` function.
+- **Process vs Thread Implementations:**
+  - The `main` function implements both process-based and threaded solutions, allowing for a straightforward comparison.
 
-- **Thread Management (Part 4):**
-  - Code for joining/detaching threads after Part 3 in the `main` function.
+- **Thread Management:**
+  - Joining and detaching of threads is handled in seperate functions after the thread implementations.
+
+This structure provides a clear separation of functionalities within the codebase.
 
 ## Performance Comparison
 
@@ -60,7 +62,7 @@ The proper/optimal number of child processes or threads is justified based on ex
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/MatrixMultiplication.git
+   git clone https://github.com/Rasheed-Al-Qobbaj/MatrixMultiplication.git
    ```
 
 2. Compile the C code:
