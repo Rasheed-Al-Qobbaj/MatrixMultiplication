@@ -12,8 +12,7 @@ This project demonstrates matrix multiplication using both process-based and thr
 - [Thread Management](#thread-management)
 - [Results and Analysis](#results-and-analysis)
 - [How to Run](#how-to-run)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Requirements
 
